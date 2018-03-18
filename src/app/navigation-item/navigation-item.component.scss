@@ -1,0 +1,19 @@
+@import '../../lib/_colors.scss';
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height : 60px;
+  border: 1px solid $deep-aqua;
+  background-color: $seafoam;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $wave;
+    color: white;
+    font-size: 20px;
+  }
+}
